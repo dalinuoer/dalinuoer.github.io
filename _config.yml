@@ -215,7 +215,9 @@ font:
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 #social:
   #LinkLabel: Link
-
+  GitHub: https://github.com/dalinuoer
+  Twitter: https://twitter.com/dalinuoer_
+  E-Mail: mailto:530658481@qq.com
 
 # Social Links Icons
 # Icon Mapping:
@@ -229,6 +231,7 @@ social_icons:
   GitHub: github
   Twitter: twitter
   Weibo: weibo
+  E-Mail: envelope
 
 
 # Sidebar Avatar
