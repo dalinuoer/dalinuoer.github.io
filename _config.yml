@@ -364,7 +364,7 @@ highlight_theme: normal
 mathjax:
   enable: true
   per_page: true
-  cdn: //cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_CHTML
+  cdn: //cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 # Han Support docs: https://hanzi.pro/
 han: true
