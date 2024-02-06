@@ -9,8 +9,8 @@ image: http://gastonsanchez.com/images/blog/mathjax_logo.png
 
 One of the rewards of switching my website to [Jekyll](http://jekyllrb.com/) is the
 ability to support **MathJax**, which means I can write LaTeX-like equations that get
-nicely displayed in a web browser, like this one $ \sqrt{\frac{n!}{k!(n-k)!}} $ or
-this one $ x^2 + y^2 = r^2 $.
+nicely displayed in a web browser, like this one \\( \sqrt{\frac{n!}{k!(n-k)!}} \\) or
+this one \\( x^2 + y^2 = r^2 \\).
 
 <!--more-->
 
@@ -69,9 +69,7 @@ always checked the provided documentation available at
 
 Let's try a first example. Here's a dummy equation:
 
-$$
-a^2 + b^2 = c^2
-$$
+$$a^2 + b^2 = c^2$$
 
 How do you write such expression? Very simple: using **double dollar** signs
 
@@ -91,9 +89,7 @@ $$ \mathsf{Data = PCs} \times \mathsf{Loadings} $$
 
 which gets displayed as
 
-$$ 
-\mathsf{Data = PCs} \times \mathsf{Loadings} 
-$$
+$$ \mathsf{Data = PCs} \times \mathsf{Loadings} $$
 
 Or even better:
 
@@ -103,9 +99,7 @@ Or even better:
 
 is displayed as
 
-$$
-\mathbf{X} = \mathbf{Z} \mathbf{P^\mathsf{T}}
-$$
+\\[ \mathbf{X} = \mathbf{Z} \mathbf{P^\mathsf{T}} \\]
 
 If you want to use subscripts like this \\( \mathbf{X}\_{n,p} \\) you need to scape the
 underscores with a backslash like so ``` \mathbf{X}\_{n,p} ```:
@@ -116,6 +110,4 @@ $$ \mathbf{X}\_{n,p} = \mathbf{A}\_{n,k} \mathbf{B}\_{k,p} $$
 
 will be displayed as
 
-$$
-\mathbf{X}\_{n,p} = \mathbf{A}\_{n,k} \mathbf{B}\_{k,p}
-$$
+\\[ \mathbf{X}\_{n,p} = \mathbf{A}\_{n,k} \mathbf{B}\_{k,p} \\]
