@@ -364,7 +364,7 @@ highlight_theme: normal
 mathjax:
   enable: true
   per_page: true
-  cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
+  cdn: //cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_CHTML
 
 # Han Support docs: https://hanzi.pro/
 han: true
@@ -628,8 +628,7 @@ pace: true
 #pace-theme-minimal
 # For example
 # pace_theme: pace-theme-center-simple
-# pace_theme: pace-theme-minimal
-pace_theme: pace-theme-mac-osx
+pace_theme: pace-theme-minimal
 
 # Canvas-nest
 canvas_nest: false
@@ -645,7 +644,7 @@ canvas_sphere: false
 
 # Only fit scheme Pisces
 # Canvas-ribbon
-canvas_ribbon: true
+canvas_ribbon: false
 
 # Script Vendors.
 # Set a CDN address for the vendor you want to customize.
