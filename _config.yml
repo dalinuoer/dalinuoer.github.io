@@ -380,8 +380,8 @@ baidu_analytics: 44418e49d63be8745d70e507304a6297
 
 # Disqus
 disqus:
-  enable: false
-  shortname: 
+  enable: true
+  shortname: dalinuoer
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
